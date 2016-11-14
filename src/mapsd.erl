@@ -148,7 +148,7 @@ from_list(L) ->
 -spec is_empty(M :: map()) -> boolean().
 
 is_empty(M) ->
-    M /= #{}.
+    M == #{}.
 
 -spec is_key(K :: any(),
              M :: map()) -> boolean().
