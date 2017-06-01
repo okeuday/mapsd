@@ -3,7 +3,7 @@ defmodule Mapsd.Mixfile do
 
   def project do
     [app: :mapsd,
-     version: "0.1.0",
+     version: "0.2.0",
      language: :erlang,
      description: description,
      package: package,
@@ -25,7 +25,7 @@ defmodule Mapsd.Mixfile do
   defp package do
     [files: ~w(src rebar.config README.markdown LICENSE),
      maintainers: ["Michael Truog"],
-     licenses: ["BSD"],
+     licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/okeuday/mapsd"}]
    end
 end
