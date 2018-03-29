@@ -11,7 +11,7 @@ between the two APIs is the `maps:update/3` function which becomes
 Author
 ------
 
-Michael Truog (mjtruog [at] gmail (dot) com)
+Michael Truog (mjtruog at protonmail dot com)
 
 License
 -------
